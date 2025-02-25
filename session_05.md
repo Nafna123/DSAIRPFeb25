@@ -12,8 +12,10 @@ How AGI might work
 1) Learn human behavior: AGI can learn human behavior and understand consciousness. 
 2) Transfer knowledge: AGI can transfer knowledge and skills learned in one domain to another. 
 3) Common sense: AGI has a vast knowledge of the world, including facts, relationships, and social norms. 
-4) Social and emotional engagement: AGI can recognize and understand emotions, including facial expressions, body language, and tone of voice. 
+4) Social and emotional engagement: AGI can recognize and understand emotions, including facial expressions, body language, and tone of voice.
+   
 Potential uses of AGI 
+
 1) Assisting healthcare workers
 2) Making recommendations for movies, music, and books
 3) Contributing to the development of new products and industries
