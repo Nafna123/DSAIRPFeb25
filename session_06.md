@@ -24,6 +24,12 @@ jupyter notebook
 # Python Data Types
 ## Numeric Type
 ### Integer
+An integer is a whole number that can be either positive, negative, or zero. It does not have any decimal or fractional parts. Examples of integers include:
+
+Positive integers: 1, 2, 3, 4, ...
+Negative integers: -1, -2, -3, -4, ...
+Zero: 0
+
 ### Float
 ### Complex
 
