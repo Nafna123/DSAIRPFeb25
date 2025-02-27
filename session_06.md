@@ -52,19 +52,25 @@ Python: Python has built-in support for complex numbers. You can represent a com
 
 ## Text Type
 ### String
-In Python, the text type refers to strings, which are sequences of characters. Strings are one of the built-in data types used to represent textual data. In Python, strings are defined using either single quotes (') or double quotes (")
+String is one or more characters/text
+
+![Screenshot 2025-02-27 154332](https://github.com/user-attachments/assets/9a690309-38d5-4393-9199-0851e8eca422)
 
 ## Sequence Type
 ### List
 List is a collection of elements grouped together
+Lists are mutable which means we can change the elements after creating a list
 
 ### Tuple
-TUPLES  are similiar to list  but are immutatble, meaning once you create a tuple, you cannot change, add, or remove items.
+Tuples are similar to list but are immutable, meaning once you create a tuple, you cannot change, add, or remove items.
+
+This immutability can help protect data from accidental modification and also makes tuples more memory-efficient.
 
 ![Screenshot 2025-02-26 194113](https://github.com/user-attachments/assets/2eaf8583-8d9f-4da3-ae09-f8145c67b220)
 
 ### Range
-In Python, range() is a built-in function used to generate a sequence of numbers, which can be used in loops or other contexts that require an iterable. The range() function takes up to three arguments:
+In Python, range() is a built-in function used to generate a sequence of numbers, which can be used in loops or other contexts that require an iterable. The range data type in Python represents an immutable sequence of numbers
+The range() function takes up to three arguments:
 
 1) start (optional): The value to start the sequence (default is 0).
 2) stop: The value where the sequence will stop, but it is not included in the sequence.
@@ -76,30 +82,45 @@ In Python, range() is a built-in function used to generate a sequence of numbers
 A mapping type refers to a collection type that associates keys with values. The most commonly used mapping type in Python is the dict (dictionary).
  
 ### Dictionary
-A dictionary is a built-in data type that stores data in key-value pairs. Dictionaries are unordered, changeable, and indexed by keys.
+In Python, a dictionary is an unordered, mutable collection that stores data in key-value pairs.
+
+Each key in a dictionary must be unique, while values can be duplicated
 
 ![Screenshot 2025-02-26 193834](https://github.com/user-attachments/assets/d0d22180-f6a3-4da7-8121-c1ea1ab108f6)
 
 ## Set Type
 A set is an unordered collection data type that is mutable, iterable, and does not allow duplicate elements. Sets are commonly used to store unique items and perform operations like unions, intersections, and differences between collections.
- 
+
+ ![Screenshot 2025-02-27 154440](https://github.com/user-attachments/assets/efcf457d-f07c-44ec-8ae3-8e6b97815727)
+
 ## Boolean
-true or False
+In Python, the Boolean data type represents truth values, which can be either True or False. Booleans are often used in conditional statements and expressions to make decisions in code
 
 ![Screenshot 2025-02-26 132715](https://github.com/user-attachments/assets/3729e64c-d88d-47ce-9de4-ee3dfd0833e0)
 
 ## None Type
 The none type represents the absence of a value or a null value
 
+![Screenshot 2025-02-27 154518](https://github.com/user-attachments/assets/8bf255e1-d5ff-42b3-9128-9f12fbc1ae0a)
+
 # Operators in Python
 ## Arithmetic Operators
 Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, etc., on numbers.
 ### Addition
 Adds two numbers.
+
+![Screenshot 2025-02-27 154545](https://github.com/user-attachments/assets/925ea570-1580-478e-a7e4-868a24eacf39)
+
 ### Subtraction
 Subtracts the second number from the first.
+
+![Screenshot 2025-02-27 154554](https://github.com/user-attachments/assets/302384e9-bcb5-4902-b2f5-b526557a0c41)
+
 ### Multiplication
 Multiplies two numbers.
+
+![Screenshot 2025-02-27 154602](https://github.com/user-attachments/assets/3b2d2a10-d708-49f2-a34a-6cfb43310e61)
+
 ### Division
 Divides the first number by the second, and always returns a float.
 
@@ -107,8 +128,12 @@ Divides the first number by the second, and always returns a float.
 
 ### Modulous
 Returns the remainder of the division of two numbers.
+
 ### Exponent
 Raises the first number to the power of the second.
+
+![Screenshot 2025-02-27 154749](https://github.com/user-attachments/assets/2cc23744-40ae-4381-81b7-4e040fc957fe)
+
 ### Floor Division
 Divides the first number by the second and returns the integer part of the result (rounds down to the nearest whole number).
 
@@ -117,11 +142,15 @@ Divides the first number by the second and returns the integer part of the resul
 ## Assignment Operator
 The assignment operator is used to assign values to variables.
 
+![Screenshot 2025-02-27 154822](https://github.com/user-attachments/assets/0829af37-7cbd-4504-aa3f-9831e755c5bf)
+
 ## Comparison Operator
+Compare two values and return True or False
+
 - >
   The > operator checks if the value on the left is greater than the value on the right.
-
-   >![Screenshot 2025-02-26 202458](https://github.com/user-attachments/assets/d9cd19b3-e466-4390-bba9-0255cd045898)
+   
+   ![Screenshot 2025-02-26 202458](https://github.com/user-attachments/assets/d9cd19b3-e466-4390-bba9-0255cd045898)
 
 - <
   The < operator checks if the value on the left is less than the value on the right.
@@ -176,9 +205,13 @@ In Python, the membership operators in and not in are used to check if a value e
 The in operator checks if a value is present in an iterable (e.g., list, tuple, string).
 in: Returns True if the element is present in the iterable, False otherwise.
 
+![Screenshot 2025-02-27 155102](https://github.com/user-attachments/assets/7d418f23-6b28-4c78-8bd3-42f73573b3e7)
+
 ### NOT IN
 The not in operator checks if a value is not present in an iterable.
 not in: Returns True if the element is not present in the iterable, False otherwise.
+
+![Screenshot 2025-02-27 155108](https://github.com/user-attachments/assets/437ae560-e425-49c9-8222-c864717b23f8)
 
 ## Identity Operator
 In Python, the identity operators is and is not are used to compare the memory locations of two objects, checking whether they refer to the same object in memory or not.
